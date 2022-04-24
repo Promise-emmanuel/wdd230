@@ -83,3 +83,26 @@ footer p{
 .paragraph-2{
     color:green;
 }
+
+@media screen and (max-width: 500px) {
+    body{
+        background-color:brown;
+        width:100%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    main{
+        background-color: white;
+    }
+
+    header h1{
+    color:brown;
+    transform: translate(15%, 40%);
+    font-size: 1.5em;
+    text-shadow: 2px 2px white;
+
+    }
+
+
+}
