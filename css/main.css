@@ -4,7 +4,7 @@ body {
     margin:  auto;
     padding-top: 10px;
     line-height: 2em;
-    background-color: #C1D8EC;
+    background-color: #fff;
     
 }
 
@@ -84,7 +84,7 @@ footer p{
     color:green;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
     body{
         background-color:brown;
         width:100%;
