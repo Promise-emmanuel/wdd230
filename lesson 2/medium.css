@@ -1,17 +1,14 @@
-@media only screen and (min-width:60em) {
-    
-
+@media only screen and (min-width:37.2em){
     body {
-        max-width: 850px;
-        width: 100%;
         margin:  auto;
         padding-top: 10px;
         line-height: 2em;
-        background-color: #fff;
-
+        background-color: brown;
+        max-width:80%;
+    
         
     }
-
+    
     header{
         display: block;
         background-color:burlywood;
@@ -24,25 +21,26 @@
         margin-bottom: 5%;
         
     }
-
-    header h1{
+    
+     header h1{
         color:brown;
-        font-size: 3.5em;
+        font-size: 2.5em;
         text-shadow: 2px 2px white;
-    }
-
-
+     }
+    
+    
     main{
         background-color: white;
         padding-bottom: 15px;
         padding-top: 15px;
-    }
 
+    }
+    
     #container-1{
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-left: 2%;
-
+        grid-template-columns: 1fr 1fr;
+        
+    
     }
     .design-principle{
         max-width: 260px;
@@ -56,35 +54,35 @@
         width: 247px;
         margin:auto;
     }
-
+    
     .design-principle h2 {
         font-size:2em;
         padding-top:5px;
         padding-left: 15px;
         
     }
-
+    
     .button{
         transform:translate(0%, -100%)
     }
     .button a{
         text-decoration: none;
-    
+       
     }
     .button a:hover{
         background-color: red;
         color:#fff
     }
-
+    
     .design-principle p {
         font-size:1em;
         padding-top: 5%;
-        font-size: 18px;
+        font-size: 20px;
         font-family: 'Merriweather', serif;
-
+    
     }
-
-
+    
+    
     footer{
         background-color:burlywood;
         text-align: center;
@@ -96,16 +94,16 @@
         margin-top: 30px;
         margin-bottom:50px;
     }
-
+    
     footer p{
         font-size: 22px;
         
     }
-
+    
     .paragraph-2{
         color:green;
     }
-
+    
 
 
 }
