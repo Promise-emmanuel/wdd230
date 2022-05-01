@@ -64,48 +64,46 @@ main{
 }
 
 .button{
-    transform:translate(0%, -100%)
-}
-.button a{
-    text-decoration: none;
-
-}
-.button a:hover{
-    background-color: red;
-    color:#fff
-}
-
-.design-principle p {
-    font-size:0.5em;
-    padding-top: 5%;
-    font-size: 18px;
-    font-family: 'Merriweather', serif;
-
-}
-
-
-footer{
-    background-color:burlywood;
-    text-align: center;
-    padding-top:5px;
-    font-size: 20px;
-    border: 1px solid black;
-    box-shadow: 5px 5px 5px 5px #999;
-    border-radius: 20px;
-    margin-top: 30px;
-    margin-bottom:50px;
-    max-width:760px;
-    margin: 1.25em;
-}
-
-footer p{
-    font-size: 22px;
+        transform:translate(0%, -100%)
+    }
+    .button a{
+        text-decoration: none;
     
-}
+    }
+    .button a:hover{
+        background-color: red;
+        color:#fff
+    }
 
-.paragraph-2{
-    color:green;
-}
+    .design-principle p {
+        font-size:1em;
+        padding-top: 5%;
+        font-size: 18px;
+        font-family: 'Merriweather', serif;
+
+    }
+
+
+    footer{
+        background-color:burlywood;
+        text-align: center;
+        padding-top:5px;
+        font-size: 20px;
+        border: 1px solid black;
+        box-shadow: 5px 5px 5px 5px #999;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-bottom:50px;
+    }
+
+    footer p{
+        font-size: 22px;
+        
+    }
+
+    .paragraph-2{
+        color:green;
+    }
 
 
 

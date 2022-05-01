@@ -41,7 +41,8 @@
     #container-1{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin-left: 2%;
+        grid-gap: 20px;
+        
 
     }
     .design-principle{
