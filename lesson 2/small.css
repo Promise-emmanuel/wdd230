@@ -33,13 +33,13 @@ main{
     padding-bottom: 15px;
     padding-top: 15px;
     max-width:760px;
-    margin:1.25em;
+    margin:0.5em;
     
 }
 
 #container-1{
     display:grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 600px;
     grid-gap: 1.5em;
     justify-items: center;
 }
@@ -54,6 +54,7 @@ main{
 
 .design-principle img{
     width: 280px;
+    height:200px;
     margin:auto;
 }
 
