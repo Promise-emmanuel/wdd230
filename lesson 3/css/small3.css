@@ -1,16 +1,8 @@
-:root {
-    /* change the values below to your colors from your palette */
-    --primary-color: #1D3557;
-}
-
 body{
     line-height: 1.5em;
     max-width:100%;
     margin: 2%;
     background-color: #fff;
-
-
-
 }
 
 header{
@@ -48,7 +40,7 @@ nav ul li a:hover{
 main{
     display:grid;
     grid-template-columns: 1fr;
-    font-size:25px;
+    font-size:15px;
     font-weight: 25px;
     line-height: 1.5em;
     margin: 2px;
