@@ -1,7 +1,9 @@
 body{
     line-height: 1.5em;
+    max-width: fit-content;
     margin: 2%;
     background-color: #fff;
+
 }
 
 header{
@@ -11,7 +13,7 @@ header{
     padding: 20px;
     box-shadow: 0 2px 15px gray;
 }
-
+/*
 nav {
     width: 100%;
     
@@ -44,11 +46,7 @@ main{
     line-height: 1.5em;
     margin: 2px;
 }
-
-main{
-    grid-row: 450px;
-    grid-gap:15px;
-}
+*/
 
 h2{
     text-align: center;
@@ -58,6 +56,7 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width:400px;
     
 }
 
