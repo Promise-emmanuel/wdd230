@@ -1,0 +1,35 @@
+@media only screen and (min-width:800px){
+    body{
+        line-height: 1.5em;
+        width:960px;
+        max-width: 100%;
+        margin:0 auto;
+        margin-top:10px;
+        background-color: #fff;
+        font-size: 50px;
+    
+    }
+
+    header{
+        display:flex;
+        text-align: center;
+        height:150px;
+    
+    }
+    nav ul{
+        display:flex;
+        transform: translate(0%, -20%);
+    }
+    nav ul li{
+        flex: 1 1 auto;
+    }
+
+    main{
+        font-size: 20px;
+        
+    }
+
+    footer{
+        height: 280px;
+    }
+}
