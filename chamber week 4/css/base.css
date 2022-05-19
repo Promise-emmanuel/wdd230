@@ -10,7 +10,7 @@ header, footer{
 .button_header{
     display:flex;
     justify-content:flex-end;
-    margin: .3rem;
+    margin: 0px;
 }
 
 
@@ -154,9 +154,16 @@ nav button{
 footer .first_footer, .second_footer, .third_footer{
     display: block;
     text-align: center;
-    
+    padding: 2%;
+
     /* flex-wrap: wrap; */
     /* flex-direction: row; */
     /* justify-content: space-around; */
     /* align-items: center; */
+}
+
+.second_footer, .third_footer{border-top: 1px dashed white;}
+.second_footer nav img{
+    border-radius: 40px;
+    width: 30px;
 }
