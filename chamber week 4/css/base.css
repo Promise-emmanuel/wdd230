@@ -101,7 +101,7 @@ nav ul li a:hover{
 }
 
 nav button{
-    margin:.2rem 2vw;
+    margin:2vw;
     background-color: transparent;
     border: none;
     font-size: 2rem;
