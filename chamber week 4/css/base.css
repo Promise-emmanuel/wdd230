@@ -10,7 +10,7 @@ header, footer{
 .button_header{
     display:flex;
     justify-content:flex-end;
-    margin: .8rem;
+    margin: .3rem;
 }
 
 
@@ -101,7 +101,7 @@ nav ul li a:hover{
 }
 
 nav button{
-    margin:2vw;
+    margin:.2rem 2vw;
     background-color: transparent;
     border: none;
     font-size: 2rem;
