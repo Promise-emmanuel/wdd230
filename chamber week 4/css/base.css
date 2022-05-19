@@ -63,9 +63,9 @@ nav ul  {
 nav ul.open{ 
     display: block;
     max-width: 100%;
-    width:360px;
+    width:340px;
     text-align:center;
-    margin-right: .5rem;
+    margin-right: 1rem;
 }
 
 
