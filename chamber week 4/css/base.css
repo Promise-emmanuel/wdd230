@@ -1,0 +1,153 @@
+header, footer{
+    background-color: rgb(2,48,71);
+    padding-bottom: 1rem;
+    padding-top: .9rem;
+    color:white;
+    box-shadow: 10px grey;
+}
+
+
+.button_header{
+    display:flex;
+    justify-content:flex-end;
+    margin: .8rem;
+}
+
+
+.first_header{
+    display:flex;
+    justify-content: space-around;
+    align-items: start;
+    margin: .5rem;
+    color:white;
+
+}
+
+.first_header picture img{
+    margin-top: -40%;
+    margin-left: -40%;
+    
+}
+
+
+.second_header{
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    color: rgba(169, 239, 40, 0.9);
+    font-size: 18px;
+}
+
+.header_text{margin-top: -10%;}
+.header_text h2{ 
+    color: rgba(169, 239, 40, 0.9);
+    margin-left: 0%;
+}
+.header_text p{
+    color:tan;
+    margin-top: -20px;
+    margin-left: -25%;
+    font-size: 20px;
+    /* transform: translate(0%, -70%); */
+}
+
+
+
+.header_image a img{
+    width: 35px;
+    border-radius: 30px;
+}
+
+nav ul  {
+    display:none;}
+nav ul.open{ 
+    display: block;
+    max-width: 100%;
+    width:360px;
+    text-align:center;
+    margin-right: .5rem;
+}
+
+
+nav ul li{
+    background-color: rgb(2,48,71);
+    list-style-type: none;
+    
+    /* display: none; */
+}
+
+nav ul li a{
+    display: block;
+    padding: 3vw;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(0,0,0,0.7)
+}
+
+
+nav ul li.active a{
+    background-color: #fb8500;
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover{
+    background-color: #fb8500;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 2rem;
+    border-top: 1px solid rgba(0,0,0,0.7)
+}
+
+nav button{
+    margin:.2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#hamburgerBtn span:nth-child(1) {display:block;}
+#hamburgerBtn span:nth-child(2) {display:none;}
+
+#hamburgerBtn.open span:nth-child(1) {display:none;}
+#hamburgerBtn.open span:nth-child(2) {display:block;}
+
+#hero{
+    display:block;
+    
+}
+#hero .call, .event, .weather, .news{
+    display:block;
+    background-color: #eee;
+    margin: .7rem;
+    padding: .5rem;
+    height: 25vh;
+    border: 1px solid black;
+    box-shadow: 10px grey;
+    font-size: 20px;
+}
+
+.spotlight_3, .join{
+    display: none;
+}
+
+#hero .spotlight{
+    display:block;
+    background-color: #eee;
+    margin: .7rem;
+    padding: 1rem;
+    height: 46vh;
+    border: 1px solid black;
+    box-shadow: 10px grey;
+}
+
+#hero .spotlight .spotlight_1, .spotlight_2{
+    display:block;
+    background-color: #eee;
+    border: 0.1px solid rgba(0,0,0,0.4);
+    margin: 0;
+    height: 22vh;
+    padding: .2rem;
+}
+

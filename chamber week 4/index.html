@@ -7,85 +7,123 @@
     <meta name="author" content="Promise Igbojionu- WDD230">
     <meta name="description" content="The Edo-best website aims to provide a platform that business owners can advertise their business and get connected to other businesses, residents or persons with the intent to do business within the Edo-region. The platform engages professional services.">
     <title>Edo-Best</title>
+
+    <link rel="stylesheet" href="css/normalize4.css">
+    <link rel="stylesheet" href="css/base.css">
+
+    <script type="text/javascript" src="js/script4.js" defer></script>
+    
     
 </head>
 <body>
     <!--The header will contain: -->
     <header>
-        <!--the logo-->
-        <picture>
-            <img src="#" alt="logo of the edo-best website">
-        </picture>
-
-        <!--a section that houses the text-->
-        <section>
-            <h2>Edo-Best</h2>
-            <h3>chamber of commerce</h3>
-        </section>
-
-        <!--a setion that houses the images of the social media-->
-        <section>
-            <a href="https://www.facebook.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ffacebook.png?v=1620882319512" alt="facebook icon"> </a> 
-            <a href="https://www.twitter.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ftwitter.png?v=1620882316034" alt="twitter icon"> </a>         
-        </section>
-
+         <!--house the hamburger menu-->
         <!--the navigation which is shown with the menu bar-->
-        <nav>
-        <button><span></span><span></span></button>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-                <li><a href="#">Link 4</a></li>
-            </ul>
-        </nav>
+        <section class="button_header">
+
+            
+            <nav>           
+            <button id="hamburgerBtn"><span>&#9776</span><span>x</span></button>
+                <ul id="primaryNav">
+                    <li class="active"><a href="#">Link 1</a></li>
+                    <li class="active2"><a href="#">Link 2</a></li>
+                    <li class="active3"><a href="#">Link 3</a></li>
+                    <li class="active4"><a href="#">Link 4</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="first_header">    
+            
+            <picture>
+                <img src="images 4/logo_white_large.png" alt="logo of the edo-best website" width="60px">
+            </picture>
+
+            <!--a section that houses the text-->
+            <section class="header_text">
+                <h2>Edo-Best</h2>
+                <p>chamber of commerce</p>
+            </section>
+
+        </section>
+
+        <!--section 2 will house the javascript and the social media icons-->
+        <section class="second_header">
         <!--JAVASCRIP WILL INTERACT WITH THIS TO UPDATE TIME AND DATE-->
-        <div>
-            <p class="paragraph-2">Last Updated: <span id="date"></span> <span id="time"></span></p>
-        </div>
+            <div>
+                <span id="date"></span> 
+            </div>
+            <!--a setion that houses the images of the social media-->
+            <section class="header_image">
+                <a href="https://www.facebook.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ffacebook.png?v=1620882319512" alt="facebook icon"> </a> 
+                <a href="https://www.twitter.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ftwitter.png?v=1620882316034" alt="twitter icon"> </a>         
+            </section>
+
+        </section>
     </header>
 
     <main>
+        <section id="hero">
+            <section class="call">
+                <P>Hero with site name and call to action</P>
+            </section>
 
-        <section>
-            <P>Hero with site name and call to action</P>
+            <section class="event">
+                <P>Event</P>
+            </section>
+
+            
+            <section class="weather">
+                <P>Weather</P>
+            </section>
+
+            
+            <section class="news">
+                <P>News Release</P>
+            </section>
+
+            <section class="spotlight">
+                <P class="spotlight_1">Spotlight 1</P>
+                <P class="spotlight_2">Spotlight 2</P>
+                <p class="spotlight_3">Spotlight 3</p>
+            </section>
+
+            <section class="join">
+                <P>Join</P>
+            </section>
         </section>
-
-        <section>
-            <P>Event</P>
-        </section>
-
-        
-        <section>
-            <P>Weather</P>
-        </section>
-
-        
-        <section>
-            <P>News Release</P>
-        </section>
-
-        <section>
-            <P>Spotlight 1</P>
-            <P>Spotlight 2</P>
-            <p>Spotlight 3</p>
-        </section>
-
-        <section>
-            <P>Join</P>
-        </section>
-
         
     </main>
 
     <footer>
-        <picture><img src="#" alt="logo of the edo-best website"></picture>
-        <section>
+        <section class="first_footer">
+            <picture><img src="images 4/logo_white_large.png" alt="logo of the edo-best website" width="50px;"></picture>
             <h2>Edo-Best</h2>
             <h3>chamber of commerce</h3>
-            <p>#234 Reservation road, benin-city</p>
+            <p>#234 Reservation road, GRA, benin-city</p>
             <p>🌍 Edo-state, Nigeria.</p>
+        </section>
 
+        <section class="second_footer">
+            <p>info@edo-best.com</p>
+            <p>📞 +234 701345612</p>
+            <nav>
+        
+                <a href="https://www.facebook.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ffacebook.png?v=1620882319512" alt="facebook icon"> </a> 
+                <a href="https://www.twitter.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ftwitter.png?v=1620882316034" alt="twitter icon"> </a> 
+                <a href="https://www.youtube.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Fyoutube.png?v=1620882336666" alt="youtube icon"> </a> 
+              
+            </nav>    
+        </section>
+
+        <section class="third_footer">
+            <p>
+                &copy; <span id="year"></span> .:|:. Edo-Best Chamber .:|:. Nigeria
+            </p>
+            <p>Promise Nwabueze Igbojionu</p>
+            <p>WDD 230 Project</p>
+            <div><span id="lastModified"></span></div>
         </section>
     </footer>
 </body>
