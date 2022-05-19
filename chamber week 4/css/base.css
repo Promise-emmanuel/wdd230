@@ -3,7 +3,7 @@ header, footer{
     padding-bottom: 1rem;
     padding-top: .9rem;
     color:white;
-    box-shadow: 10px grey;
+    box-shadow: 3px 3px 3px 3px grey;
 }
 
 
@@ -26,7 +26,7 @@ header, footer{
 .first_header picture img{
     margin-top: -40%;
     margin-left: -40%;
-    
+    width: 80px; 
 }
 
 
@@ -118,7 +118,7 @@ nav button{
     display:block;
     
 }
-#hero .call, .event, .weather, .news{
+#hero .call, .event, .weather, .news, .join{
     display:block;
     background-color: #eee;
     margin: .7rem;
@@ -143,7 +143,7 @@ nav button{
     box-shadow: 10px grey;
 }
 
-#hero .spotlight .spotlight_1, .spotlight_2{
+.spotlight_1, .spotlight_2{
     display:block;
     background-color: #eee;
     border: 0.1px solid rgba(0,0,0,0.4);
@@ -163,16 +163,16 @@ footer .first_footer, .second_footer, .third_footer{
 }
 
 .second_footer, .third_footer{border-top: 1px dashed white;}
-.second_footer nav img{
+.second_footer nav a img{
     border-radius: 40px;
     width: 30px;
     text-decoration: none;
     
 }
 .first_footer picture img{
-    width:55px;
+    width:60px;
 }
 
-.phone{
+.second_footer p.phone{
     color:#fb8500;
 }
