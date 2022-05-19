@@ -166,4 +166,12 @@ footer .first_footer, .second_footer, .third_footer{
 .second_footer nav img{
     border-radius: 40px;
     width: 30px;
+    
+}
+.first_footer picture img{
+    width:60px;
+}
+
+.phone{
+    color:white;
 }
