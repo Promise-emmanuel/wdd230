@@ -79,18 +79,18 @@ nav ul li{
 
 nav ul li a{
     display: block;
-    padding: 3vw;
+    padding: 2vw;
     text-decoration: none;
     color: white;
     border-top: 1px solid rgba(0,0,0,0.7)
 }
 
 
-nav ul li.active a{
-    background-color: #fb8500;
-    color: white;
-    font-size: 1.5rem;
-}
+/* nav ul li.active a{ */
+    /* background-color: #fb8500; */
+    /* color: white; */
+    /* font-size: 1rem; */
+/* } */
 
 nav ul li a:hover{
     background-color: #fb8500;
@@ -143,7 +143,7 @@ nav button{
     box-shadow: 10px grey;
 }
 
-.spotlight_1, .spotlight_2{
+.spotlight_1, .spotlight_2, .spotlight_3{
     display:block;
     background-color: #eee;
     border: 0.1px solid rgba(0,0,0,0.4);
