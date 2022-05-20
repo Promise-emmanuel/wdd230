@@ -80,6 +80,7 @@
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* padding: 20px; */
 
     }
 
@@ -117,7 +118,7 @@
     .first_footer p.para_2{
         grid-column: 2/3;
         grid-row:3/4;
-        margin-top:-1rem;
+        margin-top:-.8rem;
         margin-left:-13rem;        
 
     }
@@ -136,9 +137,14 @@
         grid-column: span 3;
         grid-row: 2/3; 
         border-top: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        margin-left: 12rem;
+        padding: .9rem;
+        
         
     }
-    
     
 }
 
