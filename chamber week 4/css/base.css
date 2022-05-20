@@ -132,9 +132,6 @@ nav button{
     font-size: 20px;
 }
 
-.spotlight_3, .join{
-    display: none;
-}
 
 #hero .spotlight{
     display:block;
@@ -154,6 +151,10 @@ nav button{
     height: 22vh;
     padding: .2rem;
 }
+.spotlight_3, .join{
+    display: none;
+}
+
 footer .first_footer, .second_footer, .third_footer{
     display: block;
     text-align: center;
