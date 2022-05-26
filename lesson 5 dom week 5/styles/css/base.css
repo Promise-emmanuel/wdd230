@@ -168,7 +168,7 @@ nav button{
 
 #hero .call{
     position:relative;
-    height: 45vh;
+    height: 30vh;
 }
 
 #hero .call picture img{
@@ -187,7 +187,7 @@ nav button{
     color:white;
     margin-left: 20px; 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 .rel_call button{
     padding:1rem;
