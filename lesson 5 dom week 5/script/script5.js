@@ -36,7 +36,7 @@ const weekEndDay = new Intl.DateTimeFormat("en-us", option2).format(now);
 
 
 
-if(weekEndDay == "Monday" || weekEndDay == "Thursday"){
+if(weekEndDay == "Monday" || weekEndDay == "Tuesday"){
     invite.add("banner_hide");
 }else{
     invite.remove("banner_hide");
