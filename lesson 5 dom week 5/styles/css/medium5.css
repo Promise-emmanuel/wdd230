@@ -89,12 +89,10 @@
         font-size: 3.5rem;
     }
     .rel_call button{
-        padding:1rem;
-        border-radius:3rem;
         margin-left: 16rem;
         margin-top: .5rem;
         background-color: rgba(0,0,0,0.9);
-        font-size: 1rem;
+    
     }
     .call{
         grid-row: 1/2;
