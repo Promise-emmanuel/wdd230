@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="styles/medium6.css">
     <link rel="stylesheet" href="styles/large6.css">
     <script type="text/javascript" src="script/script5.js" defer></script>
+    <script type="text/javascript" src="script/windchill.js" defer></script>
     
     
 </head>
@@ -82,7 +83,7 @@
 
             <section class="call">
                 <picture>
-                    <source srcset="images_6/medium_3.webp" media= "(min-width: 560px) and (max-width: 959px)" >
+                    <source srcset="images_6/medium_3.webp" media= "(min-width: 35em) and (max-width: 59.5em)" >
                     <source srcset="images_6/small.webp" media= "(min-width: 50px) and (max-width: 559px)">
                     <img src ="images_6/large.webp" alt="image of edostate" >
                 </picture>
@@ -93,12 +94,7 @@
                 </div>
             </section>
 
-            <!-- <picture> -->
-                <!-- <source media= "(max-width: 640px)" srcset="images/wdd230-org-640px.jpg"> -->
-                <!-- <source media="(max-width: 1040px)" srcset="images/wdd230-org-906px.jpg"> -->
-                
-                <!-- <img src="images/wdd230-org-470px.jpg" alt="wdd-photo"> -->
-            <!-- </picture> -->     
+        
 
             <section class="event"> 
                 <h2>Ribbon cutting</h2>
@@ -112,11 +108,11 @@
             
             <section class="weather">
                 <h2>Weather</h2>
-                <img src="images 6/rain.webp" alt="rainy icon">
-                <h3>Rainy:  19 °C</h3>
+                <img src="images_6/rain.webp" alt="rainy icon">
+                <h3>Rainy:  <span id="temperature">19 </span> °C</h3>
                 <hr>
-                <p>Wind Speed:<span>2.5 km/h</span></p>
-                <p>Wind Chill:<span>N/A</span></p>
+                <p>Wind Speed:<span id="windspeed">2.5</span> km/h</p>
+                <p>Wind Chill:  <span id="windchill"></span></p>
             </section>
         
     
@@ -132,13 +128,13 @@
             <section class="spotlight">
                 <div class="spotlight_1">
                     <h2>Pro-cabs</h2>
-                    <picture><img src="images 6/car.webp" alt="small picture of a car used as a taxi" width="50%"></picture>
+                    <picture><img src="images_6/car.webp" alt="small picture of a car used as a taxi" width="50%"></picture>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, illo aliquid quisquam excepturi expedita cupiditate.</p>
                 </div>
             
                 <div class="spotlight_2">
                     <h2>Rehearsal House</h2>
-                    <picture><img src="images 6/music.webp" alt="musical symbols" width="90%"></picture> 
+                    <picture><img src="images_6/music.webp" alt="musical symbols" width="90%"></picture> 
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda ullam maiores laudantium unde eveniet perspiciatis?</p>
                     <hr>
                     <p>rehearsalhouse@gmail.com</p>
@@ -148,7 +144,7 @@
         
                 <div class="spotlight_3">
                     <h2>Plant A Tree Project</h2>
-                    <picture><img src="images 6/tree.webp" alt="Tree picture"></picture>
+                    <picture><img src="images_6/tree.webp" alt="Tree picture"></picture>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, officiis..</p>
                 </div> 
             </section> 
