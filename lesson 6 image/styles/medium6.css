@@ -48,6 +48,7 @@
     /* } */
     .header_text p{
         font-size: 30px;
+        margin-left: -30%;
     }
     
     #banner_hide{

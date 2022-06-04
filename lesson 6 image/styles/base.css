@@ -35,7 +35,7 @@ header, footer{
 }
 
 .first_header picture img{
-    margin-top: -40%;
+    margin-top: -30%;
     margin-left: -40%;
     width: 80px; 
 }
@@ -49,15 +49,15 @@ header, footer{
     font-size: 18px;
 }
 
-.header_text{margin-top: -10%;}
+.header_text{margin-top: -5%;}
 .header_text h2{ 
     color: rgba(169, 239, 40, 0.9);
-    margin-left: 0%;
+    margin-left: -15%;
 }
 .header_text p{
     color:tan;
     margin-top: -20px;
-    margin-left: -25%;
+    margin-left: -45%;
     font-size: 20px;
     font-family: 'Dancing Script', cursive;
     /* transform: translate(0%, -70%); */
