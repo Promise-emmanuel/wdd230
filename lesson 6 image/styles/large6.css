@@ -53,14 +53,7 @@
         position: absolute;
         top:10px;
     }
-    
-    #hero .rel_call h2{
-        /* color:rgba(169, 239, 40, 0.8); */
-        /* color:tan; */
-        color:white;
-        margin-left: 20px; 
-        font-size: 2.5rem;
-    }
+
     .rel_call button{
         padding:1rem;
         border-radius:3rem;
