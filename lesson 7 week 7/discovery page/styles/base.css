@@ -128,85 +128,16 @@ nav button{
 
 
 /* styling for the main part of the body */
-#hero{
+#discovery{
     display:block;
-
-    
-}
-#hero .call, .event, .weather, .news, .join, .spotlight {
-    display:block;
-    background-color: rgb(2,48,71,0.4);
-    margin: .7rem;
-    height: auto;
-    border: 1px solid black;
-    box-shadow: 3px 3px grey;
-}
-
-
-#hero .spotlight{
-    padding: 1rem;
-    
-}
-.event, .weather, .news, .join, .spotlight{
-    text-align: center;
-    font-size: 1rem;
-}
-
-
-.spotlight_1, .spotlight_2, .spotlight_3{
-    display:block;
-    background-color: rgb(2,48,71, 0.2);
-    border: 0.1px solid rgba(0,0,0,0.4);
-    margin-top: .5rem;
-    height: auto;
-    padding: .2rem;
+    margin: 0 auto;
     text-align: center;
 }
-.spotlight_3, .join{
-    display: none;
-}
 
-#hero .call{
-    position:relative;
-    height: 40vh;
+#discovery h2{
+    color:black;
+    text-shadow: 1px 1px #fb8500;
 }
-
-#hero .call picture img{
-    width:100%;
-    height: 100%;
-}
-
-#hero .rel_call{
-    position: absolute;
-    top:10px;
-}
-
-#hero .rel_call h2{
-    /* color:rgba(169, 239, 40, 0.8); */
-    /* color:tan; */
-    color:rgb(2,48,71);
-    margin-left: 20px; 
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
-}
-.rel_call button{
-    padding:1rem;
-    border-radius:3rem;
-    margin-left: 9rem;
-    margin-top: 20px;
-    background-color: rgba(0,0,0,0.5);
-    font-size: 1rem;
-}
-.rel_call button a{
-    text-decoration: none;
-    color: rgb(210, 180, 100, 0.9);
-}
-.rel_call button a:hover{
-    color:white;
-}
-
-
-
 
 
 /* styling for the footer */
