@@ -126,6 +126,11 @@ nav button{
 #hamburgerBtn.open span:nth-child(1) {display:none;}
 #hamburgerBtn.open span:nth-child(2) {display:block;}
 
+#local_storage {
+    font-size: 1.3em;
+    margin-left: 2%;
+}
+
 
 /* styling for the main part of the body of the discovery page */
 #discovery{

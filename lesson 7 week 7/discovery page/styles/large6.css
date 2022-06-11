@@ -31,7 +31,12 @@
     }
     #banner_hide{
         grid-column: span 3;
-        grid-row: 3/4
+        grid-row: 3/4;
+    }
+    #local_storage{
+        grid-column:span 3;
+        grid-row:4/5;
+        
     }
     /* styling for the main page of the large size */
     #discovery{

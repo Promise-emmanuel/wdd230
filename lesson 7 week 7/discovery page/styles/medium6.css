@@ -57,6 +57,12 @@
         justify-content: center;
         align-items: center;
     }
+    #local_storage{
+        display:flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
 
     nav ul li a{
         border:none;
@@ -88,6 +94,11 @@
         border: 1px solid #ccc;
         box-shadow: 5px 5px 5px #999;
     }
+
+    .effect:hover {
+        box-shadow: 0 0 50px #fb8500;
+    }
+
     .overview, .culture, .education, .business, .art, .people{
         clear:both;
         margin-top: 5em;
