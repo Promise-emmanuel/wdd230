@@ -130,31 +130,48 @@ nav button{
 /* styling for the main part of the body of the discovery page */
 #discovery{
     display:block;
-    margin: 0 auto;
-    text-align: center;
+    font-family:'Merriweather', sans-serif;
+    font-weight: 600;
+    line-height: 2em; 
+    
 }
+
+#discovery p{
+    margin-left: 2%;
+    margin-right:2%;
+}
+
+
 #discovery h1{ 
     font-size:1.5em;
     font-family:'Merriweather', sans-serif;
     color: rgb(2,48,71);
     text-shadow: 2px 2px gray;
+    text-align: center;
 }
 #discovery h2{
     color:black;
     text-shadow: 1px 1px #fb8500;
+    text-align: center;
 }
 
 #discovery picture img[data-src] {
     filter: blur(0.2em);
-  }
+}
   
-  #discovery picture img {
+#discovery picture img {
     filter: blur(0em);
     transition: filter 10s;
     border: 1px solid rgb(186, 186, 255);
-  }
+}
+#discovery picture{
+    display:flex;
+    justify-content: center;
+}
 
-
+.overview, .culture, .education, .business, .art, .people{
+    margin-bottom: 3em;
+}
 
 /* styling for the footer */
 footer .first_footer, .second_footer, .third_footer{

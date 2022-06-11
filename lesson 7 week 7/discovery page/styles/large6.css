@@ -37,9 +37,9 @@
     #discovery{
         display:block;
         max-width: 760px;
-        line-height: 1.5em;
-        /* grid-template-columns: 1fr; */
-        /* grid-gap:1em; */
+        margin-left: auto;
+        margin-right: auto;
+
     }
     .culture h2, .business h2, .people h2{
         margin-left: 40%;
@@ -57,7 +57,7 @@
     }
     .culture picture img, .business picture img, .people picture img{
         float:left;
-        margin-right: 20px;
+        margin-right: 25px;
         margin-bottom: 20px;
         border: 1px solid #ccc;
         box-shadow: 5px 5px 5px #999;
@@ -68,30 +68,11 @@
         margin-top: 4em;
     }
     
-    .culture{
+    .culture, .education, .business, .art, .people{
         clear:both;
-        margin-top: 10em;
+        margin-top: 5em;
     }
-
-    .education{
-        clear:both;
-        margin-top: 12em;
-        
-    }
-    
-    .business{
-        clear:both;
-        margin-top:14em;
-    }
-    .art{
-        clear:both;
-        margin-top:14em;
-    }
-    .people{
-        clear:both;
-        margin-top:8em;        
-    }
-    
+   
 
 
 
@@ -99,7 +80,7 @@
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin-top:12em;
+        margin-top:5em;
         /* padding: 20px; */
 
     }
