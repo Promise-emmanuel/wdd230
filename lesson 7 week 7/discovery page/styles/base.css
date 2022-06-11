@@ -127,7 +127,7 @@ nav button{
 #hamburgerBtn.open span:nth-child(2) {display:block;}
 
 #local_storage {
-    font-size: 1.3em;
+    font-size: 1em;
     margin-left: 2%;
 }
 
