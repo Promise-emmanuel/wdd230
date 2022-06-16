@@ -19,3 +19,5 @@ if (lastVisit !== 0) {
 // store the new date of visits value in milliseconds such that when it is called above
 newDate = Date.now()
 localStorage.setItem("visits-ls", newDate);
+
+
