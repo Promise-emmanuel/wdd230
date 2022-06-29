@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="styles/medium6.css">
     <link rel="stylesheet" href="styles/large6.css">
     <script type="text/javascript" src="script/script5.js" defer></script>
-    <script type="text/javascript" src="script/windchill.js" defer></script>
-    
+    <script type="text/javascript" src="script/localstorage.js" defer></script>
+    <script type="text/javascript" src="script/lazy_loading.js" defer></script>
     
 </head>
 <body>
@@ -38,9 +38,9 @@
             <nav>           
             <button id="hamburgerBtn"><span>&#9776</span><span>x</span></button>
                 <ul id="primaryNav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li class="active2"><a href="../lesson 7 week 7/discovery page/discovery.html">Discovery</a></li>
-                    <li class="active3"><a href="../lesson 7 week 7/discovery page/join.html">Join</a></li>
+                    <li class="active"><a href="../../lesson 6 image/index.html">Home</a></li>
+                    <li class="active2"><a href="discovery.html">Discovery</a></li>
+                    <li class="active3"><a href="#">Join</a></li>
                     <li class="active4"><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -76,87 +76,54 @@
         </section>
 
         <div id="banner_hide"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
+        <div id="local_storage"><p>User Last Visit (days): <span class="visits"></span></p></div>
     </header>
 
+
     <main> 
-        <section id="hero">
-
-            <section class="call">
-                <picture>
-                    <source srcset="images_6/medium_3.webp" media= "(min-width: 35em) and (max-width: 59.5em)" >
-                    <source srcset="images_6/small.webp" media= "(min-width: 50px) and (max-width: 559px)">
-                    <img src ="images_6/large.webp" alt="image of edostate" >
-                </picture>
-
-                <div class="rel_call">
-                    <h2>Welcome To EdoBest Chambers</h2>
-                    <button id="rel_btn"><a href="#">Join the chamber</a></button>
-                </div>
-            </section>
-
-        
-
-            <section class="event"> 
-                <h2>Ribbon cutting</h2>
-                <p><strong>💎Edo Hub</strong></p>
-                <p>join us for the grand opening of the Edo Hub institute of technology, Thursday at 1:00pm.</p>
-            
-            </section>
-         
-    
-
-            
-            <section class="weather">
-                <h2>Weather</h2>
-                <img src="images_6/rain.webp" alt="rainy icon">
-                <h3>Rainy:  <span id="temperature">19 </span> °C</h3>
-                <hr>
-                <p>Wind Speed:<span id="windspeed">2.5</span> km/h</p>
-                <p>Wind Chill:  <span id="windchill"></span></p>
-            </section>
-        
-    
-
-            
-            <section class="news">
-                <h2>News Release</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolores vel vitae nemo voluptates. Perferendis recusandae exercitationem 
-                    modi dolor inventore quod sed! Dolores optio facere odit fugiat minima repellendus perspiciatis.</p>
-        
-            </section>
-
-            <section class="spotlight">
-                <div class="spotlight_1">
-                    <h2>Pro-cabs</h2>
-                    <picture><img src="images_6/car.webp" alt="small picture of a car used as a taxi" width="50%"></picture>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, illo aliquid quisquam excepturi expedita cupiditate.</p>
-                </div>
-            
-                <div class="spotlight_2">
-                    <h2>Rehearsal House</h2>
-                    <picture><img src="images_6/music.webp" alt="musical symbols" width="90%"></picture> 
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda ullam maiores laudantium unde eveniet perspiciatis?</p>
-                    <hr>
-                    <p>rehearsalhouse@gmail.com</p>
-                    <p>+234 (0) 45454423</p>
-                </div>
-            
-        
-                <div class="spotlight_3">
-                    <h2>Plant A Tree Project</h2>
-                    <picture><img src="images_6/tree.webp" alt="Tree picture"></picture>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, officiis..</p>
-                </div> 
-            </section> 
-
-            <section class="join">
-                <h2>Join</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, ab minima! Veritatis, dolor quis. Ut cumque sit distinctio vel, 
-                    voluptates dolore voluptatem eaque quia dolorum!</p>
-            </section>   
-        </section>
-    </main> 
-    
+        <form method="get" action="thankyou.html">
+          <fieldset>
+              <legend>Application Information</legend>
+                  <label class="input">First Name<span class="hy">*</span>
+                      <input type="text" name="firstname" required placeholder="Enter your first name" pattern="[A-Za-z - ]{2,}">
+                  </label>
+                  <label class="input">Last Name<span class="hy">*</span>
+                      <input type="text" name="lastname" required placeholder="Enter your last name" pattern="[A-Za-z - ]{2,}">
+                  </label>
+                  <label class="input">Business Position:
+                      <input type="text" name="business" pattern="[A-Za-z - ]{4,}">
+                  </label>
+                  <label class="input">Email<span class="hy">*</span>
+                      <input type="email" name="email" required placeholder="email@email.com">
+                  </label>
+                  <label class="input">Phone<span class="hy">*</span>
+                      <input type="tel" name="phone" required placeholder="123-456-7890" pattern="[0-9-+]{2,}">
+                  </label>
+                  <label class="input">Business Name<span class="hy">*</span>
+                      <input type="text" name="btitle" required placeholder="Company">
+                  </label>
+          </fieldset>
+          <fieldset>
+              <legend>Membership<em>(Choose One)</em></legend>
+                  <label class="top"></label>
+                      <input type="radio" name="Membership Level" value="NPmbr"> NP Membership<br>
+                  <label class="top"></label>
+                      <input type="radio" name="Membership Level" value="Bronzembr"> Bronze Membership<br>
+                  <label class="top"></label>
+                      <input type="radio"  name="Membership Level" value="Silvermbr"> Silver Membership<br>
+                  <label class="top"></label>
+                      <input type="radio"  name="Membership Level" value="Goldmbr"> Gold Membership<br>
+          </fieldset>
+          <fieldset>
+              <legend>Business Description</legend>
+              <label for="description"></label>
+              <textarea id="txtid" name="Business Description" rows="10" cols="40" maxlength="500"></textarea>
+          </fieldset>
+          <input type="hidden" id="date" name="date" value="CurrentTime">
+          <input type="hidden" id="time" name="time" value="CurrentTime">
+          <input type="submit" value="Join Our Community" class="submitBtn">
+      </form>
+      </main>    
 
     <footer>
         <section class="first_footer">
