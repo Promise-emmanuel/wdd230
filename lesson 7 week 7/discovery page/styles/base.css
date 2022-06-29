@@ -276,6 +276,7 @@ form label.input input:required:valid {
 .submit_form {
     position: relative;
     margin: 0 auto;
+    margin-top: 2em;
     width: 300px;
     height: 200px;
     padding: 20px;
