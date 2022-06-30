@@ -47,8 +47,7 @@ section img{
     width:80%;
 	max-width: 80%;
     box-shadow: 0 0 10px #777;
-    filter: blur(0);
-    transition: filter 5s;
+    transition: filter 2s;
 
 }
 
@@ -72,34 +71,3 @@ section img{
 
 }
 
-
-
-/* img { */
-    /* width: auto; */
-	/* max-width: 325px; */
-    /* height: 200px; */
-    /* border: 1px solid #333; */
-/* } */
-
-/* li > img { */
-  /* width: auto; */
-  /* height: 30px; */
-/* } */
- 
-
-
-/* .caption > p { */
-  /* font-size: 0.75rem; */
-/* }  */
-
-/* .most {
-  background-color: #bed;
-}
-
-.fav {
-  background-color: skyblue;
-}
-
-.own {
-  background-color: rosybrown;
-} */
