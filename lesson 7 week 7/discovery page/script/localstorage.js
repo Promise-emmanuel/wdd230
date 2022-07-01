@@ -11,7 +11,7 @@ if (lastVisit !== 0) {
 	newVisit = Math.round((Date.now() - lastVisit) /day );
 
 	visitsDisplay.textContent = newVisit;
-} else {
+	} else {
 	visitsDisplay.textContent = `This is your first visit!`;
 }
 
