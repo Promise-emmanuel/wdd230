@@ -285,3 +285,38 @@ form label.input input:required:valid {
     border: 0;
     text-align: center;
 }
+
+
+/* styling for the directory page */
+main.main_direct{
+    display:block;
+    text-align:center;
+}
+.company{
+    border: 1px solid #bbb;
+    box-shadow: 0 0 25px #999;
+    margin: .35rem;
+    padding: 1rem;
+    background-color: #eee;    
+}
+.company img.company-img{
+    width:50%;
+	max-width: 80%;
+    box-shadow: 0 0 10px #777;
+    transition: filter 5s;
+}
+.company-information h2{
+    font-size: 1rem;
+    
+}
+.company-information p{
+    font-size: .8rem;
+    font-style: italic;
+}
+.company-information ul li{
+    font-size: .8rem;
+    padding-top: .8rem;
+    text-align: left;
+    max-width: 90%;
+    
+}

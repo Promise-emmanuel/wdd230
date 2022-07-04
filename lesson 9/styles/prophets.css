@@ -45,9 +45,9 @@ section {
 
 section img{
     width:80%;
-	max-width: 80%;
+	  max-width: 80%;
     box-shadow: 0 0 10px #777;
-    transition: filter 2s;
+    transition: filter s;
 
 }
 

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Promise Igbojionu- WDD230">
+    <meta name="description" content="The Edo-best website aims to provide a platform that business owners can advertise their business and get connected to other businesses, residents or persons with the intent to do business within the Edo-region. The platform engages professional services.">
+    <title>Edo-Best</title>
+
+    <link rel="icon" href="images_6/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize6.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium6.css">
+    <link rel="stylesheet" href="styles/large6.css">
+    <script type="text/javascript" src="script/script5.js" defer></script>
+    <script type="text/javascript" src="script/localstorage.js" defer></script>
+    <script type="text/javascript" src="script/lazy_loading.js" defer></script>
+    <script type="text/javascript" src="script/directory.js" defer></script>
+
+</head>
+<body>
+    <!--The header will contain: -->
+    <header>
+         <!--house the hamburger menu-->
+        <!--the navigation which is shown with the menu bar-->
+        <section class="button_header">
+
+            
+            <nav>           
+            <button id="hamburgerBtn"><span>&#9776</span><span>x</span></button>
+                <ul id="primaryNav">
+                    <li class="active"><a href="../../lesson 6 image/index.html">Home</a></li>
+                    <li class="active2"><a href="discovery.html">Discovery</a></li>
+                    <li class="active3"><a href="join.html">Join</a></li>
+                    <li class="active4"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="first_header">    
+            
+            <picture>
+                <img src="images_6/logo 2.webp" alt="logo of the edo-best website">
+            </picture>
+
+            <!--a section that houses the text-->
+            <section class="header_text">
+                <h2>EdoBest</h2>
+                <p>chamber of commerce</p>
+            </section>
+
+        </section>
+
+        <!--section 2 will house the javascript and the social media icons-->
+        <section class="second_header">
+        <!--JAVASCRIP WILL INTERACT WITH THIS TO UPDATE TIME AND DATE-->
+            <div>
+                <span id="date"></span> 
+            </div>
+            <!--a setion that houses the images of the social media-->
+            <section class="header_image">
+                <a href="https://www.facebook.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ffacebook.png?v=1620882319512" alt="facebook icon"> </a> 
+                <a href="https://www.twitter.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ftwitter.png?v=1620882316034" alt="twitter icon"> </a>         
+            </section>
+
+
+        </section>
+
+        <div id="banner_hide"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
+        <div id="local_storage"><p>User Last Visit (days): <span class="visits"></span></p></div>
+    </header>
+
+    <main class="main_direct">
+    
+        <div class="direct_container"></div>
+    
+    </main> 
+    
+
+    <footer>
+        <section class="first_footer">
+            <picture><img src="images_6/logo 2.webp" alt="logo of the edo-best website" ></picture>
+            <h2>Edo-Best</h2>
+            <h3>chamber of commerce</h3>
+            <p class="para_1">#234 Reservation road, GRA, benin-city.</p>
+            <p class="para_2">🌍 Edo-state, Nigeria.</p>
+        </section>
+
+        <section class="second_footer">
+            <p>info@edo-best.com</p>
+            <p class="phone">📞 +234 701345612</p>
+            <nav>
+        
+                <a href="https://www.facebook.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ffacebook.png?v=1620882319512" alt="facebook icon"> </a> 
+                <a href="https://www.twitter.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Ftwitter.png?v=1620882316034" alt="twitter icon"> </a> 
+                <a href="https://www.youtube.com" target="_blank"> <img src="https://cdn.glitch.com/78ebbaeb-2da2-43ce-b67b-ab83aa6f722e%2Fyoutube.png?v=1620882336666" alt="youtube icon"> </a> 
+              
+            </nav>    
+        </section>
+
+        <section class="third_footer">
+            <p>
+                &copy; <span id="year"></span> .:|:. Edo-Best Chamber .:|:. Nigeria
+            </p>
+            <p>Promise Nwabueze Igbojionu</p>
+            <p>WDD 230 Project</p>
+            <div><span id="lastModified"></span></div>
+        </section>
+    </footer>
+</body>
+</html>

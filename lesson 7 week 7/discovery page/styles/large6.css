@@ -151,6 +151,24 @@
         
         
     }
+
+    /* styling for the directory page */
+    .main_direct{
+        max-width: 960px;
+        margin: 0 auto;
+    }     
+    .direct_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .company:hover{
+        padding: 0.3rem;
+        background-color:  #141516;
+        color: whitesmoke;
+    }
+    
+    
     
 }
 
