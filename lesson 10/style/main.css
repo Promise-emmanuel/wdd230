@@ -11,6 +11,7 @@ footer{
     border-top: 1px solid black;
     font-size: large;
     margin-top: 1rem;
+    color: rgb(84, 3, 3);
 }
 
 main{
@@ -21,4 +22,8 @@ main{
     margin:1rem auto;
     vertical-align:middle;
     max-width: fit-content;
+}
+
+main h2{
+    color: green;
 }
