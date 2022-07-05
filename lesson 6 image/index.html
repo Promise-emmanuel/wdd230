@@ -23,7 +23,9 @@
     <link rel="stylesheet" href="styles/medium6.css">
     <link rel="stylesheet" href="styles/large6.css">
     <script type="text/javascript" src="script/script5.js" defer></script>
+    <script type="text/javascript" src="script/Apiweather.js" defer></script>
     <script type="text/javascript" src="script/windchill.js" defer></script>
+
     
     
 </head>
@@ -108,11 +110,15 @@
             
             <section class="weather">
                 <h2>Weather</h2>
-                <img src="images_6/rain.webp" alt="rainy icon">
-                <h3>Rainy:  <span id="temperature">19 </span> °C</h3>
+                <figure>
+                    <img src="" alt="" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
+
+                <h3><span id="temperature"></span> &deg;C </h3>
                 <hr>
                 <p>Wind Speed:<span id="windspeed">2.5</span> km/h</p>
-                <p>Wind Chill:  <span id="windchill"></span></p>
+                <!-- <p>Wind Chill:  <span id="windchill"></span></p> -->
             </section>
         
     

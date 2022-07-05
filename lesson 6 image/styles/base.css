@@ -205,6 +205,14 @@ nav button{
     color:white;
 }
 
+.weather figure img{
+    width: 60%;
+}
+.weather h3, .weather figcaption{
+    color: green;
+    font-size: 1.5rem;
+}
+
 
 
 
