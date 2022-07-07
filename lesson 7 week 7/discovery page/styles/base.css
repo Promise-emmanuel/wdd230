@@ -234,7 +234,7 @@ form label.input input {
     display: block;
     font-size: 1rem;
     border: solid 1px #e3f6f5;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     padding: .7rem;
     color: #555;
     width: 80%;
@@ -319,4 +319,56 @@ main.main_direct{
     text-align: left;
     max-width: 90%;
     
+}
+
+/* sytle the contact page */
+
+.iframe{
+    text-align: center;
+    color: rgb(1, 1, 30);
+    
+}
+.iframe h2{
+    font-size: 2rem;
+    text-shadow:2px 2px 2px #777;
+}
+.iframe h3{
+    color: green;
+    font-size: 1.4rem;
+}
+.iframe iframe{
+    width:80%;
+    height: 400px;
+}
+.italic{
+    margin: .5rem; 
+    font-style: italic;
+}
+.radio_2 input{
+    margin-bottom: 1rem;
+}
+.visit{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.visit h2 {
+    display: flex;
+    flex-direction: row;
+    color: #165C74;
+
+}
+.visit h2:before, .visit h2:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+.visit h2:before {
+    margin-right: 10px;
+    max-width:15%;
+}
+.visit h2:after {
+    margin-left: 10px;
+    max-width:15%;
 }

@@ -159,6 +159,10 @@
         grid-template-columns: 1fr 1fr;
     }
     
-    
+    /* style the contact page */
+    .iframe iframe{
+        width:90%;
+        max-height: max-content;
+    }
     
 }
