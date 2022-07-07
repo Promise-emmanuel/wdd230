@@ -153,16 +153,21 @@ nav button{
 }
 
 
-.spotlight_1, .spotlight_2, .spotlight_3{
+.spotlight_1{
     display:block;
     background-color: rgb(2,48,71, 0.2);
     border: 0.1px solid rgba(0,0,0,0.4);
     margin-top: .5rem;
     height: auto;
-    padding: .2rem;
+    padding: .8rem;
     text-align: center;
+    font-size: .8rem;
 }
-.spotlight_3, .join{
+/* .spotlight, .join{
+    display: none;
+} */
+
+.spotlight_1:nth-child(3) {
     display: none;
 }
 

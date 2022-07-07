@@ -83,12 +83,18 @@
         height: auto;
         display: grid; 
         grid-template-columns: 1fr;  
+        
     }
-    .spotlight_1,.spotlight_2,.spotlight_3{
+    .spotlight_1{
         display:grid;
         grid-column: 1/2;
         grid-row: auto;
         height:auto;
+
+    }
+
+    .spotlight_1:nth-child(3){
+        display:grid;
     }
 
     .join{
